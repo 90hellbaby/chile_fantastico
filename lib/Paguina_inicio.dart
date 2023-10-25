@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PaginaDeInicio extends StatefulWidget {
   const PaginaDeInicio({Key? key}) : super(key: key);
@@ -16,12 +17,18 @@ class _PaginaDeInicioState extends State<PaginaDeInicio> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(height: 25),
+              // Imagen de inicio
+              Icon(
+                Icons.phone_android,
+                size: 250,
+              ),
+              SizedBox(height: 50),
+
+              // Texto de inicio
               Text(
                 'Hola de nuevo!',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 36,
+                style: GoogleFonts.pacifico(
+                  fontSize: 30,
                 ),
               ),
               SizedBox(height: 10),
