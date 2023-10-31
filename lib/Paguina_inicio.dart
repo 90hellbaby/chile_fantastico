@@ -26,7 +26,7 @@ class _PaginaDeInicioState extends State<PaginaDeInicio> {
 
               // Texto de inicio
               Text(
-                'Hola de nuevo!',
+                '¡Hola de nuevo!',
                 style: GoogleFonts.pacifico(
                   fontSize: 30,
                 ),
@@ -112,13 +112,13 @@ class _PaginaDeInicioState extends State<PaginaDeInicio> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'No te registraste aun?',
+                    '¿Aún no tienes cuenta? ',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text(
-                    'Registrar ahora',
+                    'Registrate ahora',
                     style: TextStyle(
                       color: Colors.deepPurple,
                       fontWeight: FontWeight.bold,
